@@ -20,8 +20,8 @@ nest_asyncio.apply()
 
 # Step 1: Configurations
 load_dotenv()
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", google_api_key=os.getenv('GOOGLE_API_KEY'))
-embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001", google_api_key=os.getenv("GOOGLE_API_KEY"))
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash-lite", google_api_key=os.getenv('GOOGLE_API_KEY'))
+embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001", google_api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Step 2: Steamlit App
 st.set_page_config(page_title="RAG with LangChain", page_icon="🤖", layout="wide")
