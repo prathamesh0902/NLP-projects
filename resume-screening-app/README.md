@@ -1,6 +1,7 @@
 # Resume-Screening-App
 Resume Screening App With Python and Machine Learning 
 
+**Project Overview**
 1. Take data present from Kaggle
 2. Categories = Label. Explore
 3. Data Cleaning > URLs, hashtags, special characters, punctuations
